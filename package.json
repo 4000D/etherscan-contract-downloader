@@ -1,0 +1,25 @@
+{
+  "name": "etherscan-contract-downloader",
+  "version": "0.0.2",
+  "description": "",
+  "main": "dist/src/index.js",
+  "bin": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [],
+  "author": "4000D",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1"
+  }
+}
