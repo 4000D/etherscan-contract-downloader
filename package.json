@@ -1,6 +1,6 @@
 {
   "name": "etherscan-contract-downloader",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/src/index.js",
   "bin": "dist/src/index.js",
