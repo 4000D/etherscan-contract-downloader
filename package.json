@@ -1,5 +1,9 @@
 {
   "name": "etherscan-contract-downloader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4000D/etherscan-contract-downloader.git"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "dist/src/index.js",
